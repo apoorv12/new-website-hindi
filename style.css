@@ -12,6 +12,7 @@
     padding: 0.5rem;
     padding-left: 2rem;
     justify-items: center;
+    position: sticky;
 }
 .nav-list{
 width : 50%;
@@ -49,6 +50,25 @@ padding-left: 2rem;
     font-size: 17px;
 }
 
+.btn-sm {
+    border: 2px solid white;
+    padding: 0.30rem;
+    background-color: white;
+    color: rgb(2, 2, 54);
+    font-size: 17px;
+    border-radius: 6px;
+    
+}
+
+.btn-sm:hover {
+    border: 2px solid green;
+    padding: 0.30rem;
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
 .btn {
     border: 2px solid white;
     padding: 0.30rem;
@@ -70,8 +90,40 @@ padding-left: 2rem;
 
 /* To put a background within nav-bar */
 .background{
-    background: rgba(0, 0, 0, 0.7)url(/images/architecture-g906b57c71_1920.jpg);
+    background: rgba(6, 24, 128, 0.589)url(/images/architecture-g906b57c71_1920.jpg);
     background-size: cover;
-    /* background-blend-mode: darken; */
+    background-blend-mode:darken;
 }
 /* Content */
+/* hero section */
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6rem 4rem;
+    
+    
+}
+.firstHalf{
+    text-align: center;
+    width: 75%;
+}
+
+.img{
+    margin-left: 9rem;
+    width: 70%;
+    height: auto;
+    border-radius: 18px;
+    border: 2px solid wheat;
+}
+
+.title{
+    font-size: xx-large;
+    padding-bottom: 1rem;
+}
+
+.subtitle{
+    padding-bottom: 1rem;
+}
