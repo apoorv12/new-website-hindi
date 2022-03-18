@@ -6,7 +6,20 @@
 }
 
 /* heading */
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 30px;
+}
 
+.line{
+    background-color: white;
+    height: 0.25rem;
+    width: 2rem;
+    margin: 0.5rem;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -169,16 +182,8 @@ padding-left: 2rem;
     margin-left: 4rem;
 }
 
-.footer{
-    background: black;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding: 1rem 0rem;
-}
-
 .contact{
-    background-color: rgb(241, 237, 232);
+    background-color: rgb(216, 232, 253);
     padding: 2rem 2rem;
 }
 .contactUs{
@@ -216,9 +221,11 @@ padding-left: 2rem;
 
 }
 
-
 .footer{
-    margin-top: 4rem;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1.25rem 0rem;
 }
 
 .footerLink{
@@ -227,3 +234,28 @@ padding-left: 2rem;
     margin: 4rem 4rem;
 }
 
+/* media queries */
+
+@media only screen and (max-width: 1020px){
+    .nav-list{
+        flex-direction: column;
+        padding-left: 9rem;
+    }
+    .navbar{
+        padding: 0rem 1.5rem;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .background1{
+        background-color: rgb(6, 6, 27);
+    }
+}

@@ -8,9 +8,14 @@
     <title>iEducate</title>
 </head>
 <body>
-    <nav class="navbar background">
+    <nav class="navbar background background1">
         <div class="logo"><a href="#Home"><img src="/images/logo.png" alt="logo"></a></div>
-        <ul class="nav-list">
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-list v-class-resp">
             <li><a href="#Home">Home</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#Services">Services</a></li>
@@ -79,13 +84,16 @@
             <input type="text" name="Name" class="name" placeholder="Your Name ...">
             <input type="email" name="Email" class="name" placeholder="Your Email...">
             <input type="number" name="Phone" class="name" placeholder="Your Phone Number...">
+            <textarea name="Details" id="details" cols="30" rows="10" class="name" placeholder="Provide Your Details Here ..."></textarea>
             <button class="submit">Submit</button>
         </div>
         
     </section>
 
     <footer class="footer">
-        <p> <a class="footerLink" href="https://www.agmarketingservice.co.in/" target="_blank" rel="noopener noreferrer">Copyright @ AG.Advisers</a> </p>
+        <p> <a class="footerLink" href="https://www.agmarketingservice.co.in/" target="_blank" rel="noopener noreferrer">Copyright &copy; AG.Advisers - All Rights Reserved </a> </p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
