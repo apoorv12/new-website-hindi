@@ -177,8 +177,53 @@ padding-left: 2rem;
     padding: 1rem 0rem;
 }
 
+.contact{
+    background-color: rgb(241, 237, 232);
+    padding: 2rem 2rem;
+}
+.contactUs{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+.submit{
+    width: 70%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+
+}
+
+
+.footer{
+    margin-top: 4rem;
+}
+
 .footerLink{
     color: white;
     text-decoration: none;
+    margin: 4rem 4rem;
 }
 
