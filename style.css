@@ -11,12 +11,12 @@
     position: absolute;
     cursor: pointer;
     right: 5%;
-    top: 45px;
+    top: 30px;
 }
 
 .line{
     background-color: white;
-    height: 0.25rem;
+    height: 0.20rem;
     width: 2rem;
     margin: 0.5rem;
 }
@@ -28,6 +28,9 @@
     /* These two code make navbar sticky on top */
     position: sticky;
     top: 0%;
+}
+.nav-list-resp{
+    display: none;
 }
 .nav-list{
 width : 50%;
@@ -252,8 +255,24 @@ padding-left: 2rem;
 /* media queries */
 
 @media only screen and (max-width: 1020px){
-    .nav-list{
+    .nav-list-resp{
+        display: flex;
         flex-direction: column;
+        align-items: flex-end;
+        background-color: rgb(6, 6, 27);
+        padding: 1rem;
+    }
+    .nav-display{
+        display: none;
+    }
+    .nav-list-resp li{
+        list-style: none;
+        padding: 1rem;
+    }
+    .nav-list-resp li a{
+        text-decoration: none;
+        color: white;
+        
     }
 
     .search{
