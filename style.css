@@ -11,7 +11,7 @@
     position: absolute;
     cursor: pointer;
     right: 5%;
-    top: 30px;
+    top: 45px;
 }
 
 .line{
@@ -234,15 +234,15 @@ padding-left: 2rem;
     margin: 4rem 4rem;
 }
 
+.nav-list-resp{
+    display: none;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 1020px){
     .nav-list{
         flex-direction: column;
-        padding-left: 9rem;
-    }
-    .navbar{
-        padding: 0rem 1.5rem;
     }
 
     .search{
@@ -255,7 +255,7 @@ padding-left: 2rem;
     .v-class-resp{
         opacity: 0;
     }
-    .background1{
+    .background-resp{
         background-color: rgb(6, 6, 27);
     }
 }
